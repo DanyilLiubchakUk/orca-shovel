@@ -33,19 +33,19 @@ The first usable version should work for the creator personally, but the archite
 Run the app locally:
 
 ```bash
-bun --bun run dev
+bun run dev
 ```
 
 Build for production:
 
 ```bash
-bun --bun run build
+bun run build
 ```
 
 Run tests:
 
 ```bash
-bun --bun run test
+bun run test
 ```
 
 ## Core Safety Rule

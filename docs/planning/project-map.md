@@ -1,8 +1,8 @@
 # Project Map
 
-## Planned Repository Shape
+## Repository Shape
 
-The deployed scaffold currently lives at the repo root. The intended production monorepo shape is below, and the current gap is tracked in [Current Repo State](current-repo-state.md).
+The TanStack Start app now lives in `apps/web`. The root package coordinates Bun workspaces and deployment commands.
 
 ```text
 orca-shovel/

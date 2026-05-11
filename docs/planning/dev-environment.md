@@ -10,23 +10,23 @@
 
 ## Local Processes
 
-Current scaffold:
+Current web app:
 
 ```text
 bun install
-bun --bun run dev
+bun run dev
 ```
 
 Planned full system:
 
 ```text
 bun install
-bun --filter web dev
+bun --filter @orca-shovel/web dev
 convex dev
 trigger.dev dev
 ```
 
-The planned commands should be finalized when the repo is moved into the full Bun workspace structure.
+Convex and Trigger.dev commands should be finalized when those deployable targets are scaffolded.
 
 ## Local Webhook Testing
 

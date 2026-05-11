@@ -20,7 +20,7 @@ Reason:
 - Convex and Trigger.dev already externalize most backend complexity
 - the BFF should remain thin
 
-The current repo uses `@netlify/vite-plugin-tanstack-start`, `vite build`, and `dist/client` as the publish directory.
+The current repo uses `@netlify/vite-plugin-tanstack-start` in `apps/web`. Root `netlify.toml` builds `@orca-shovel/web` and publishes `apps/web/dist/client`.
 
 Keep hosting adapter boundaries clean so Cloudflare can be adopted later.
 

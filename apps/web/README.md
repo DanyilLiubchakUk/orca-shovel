@@ -1,6 +1,26 @@
-# apps/web
+# Web App
 
 TanStack React Start app and thin BFF.
+
+This is the deployed Netlify web target for OrcaShovel.
+
+## Commands
+
+From the repo root:
+
+```bash
+bun run dev
+bun run build
+bun run test
+```
+
+From this directory:
+
+```bash
+bun run dev
+bun run build
+bun run test
+```
 
 Responsibilities:
 
